@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "perxia": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "PERXIA Router (local)",
+      "options": { "baseURL": "http://localhost:4000/v1" },
+      "models": { "perxia-auto": { "name": "Perxia Auto" } }
+    }
+  }
+}
